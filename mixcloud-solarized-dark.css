@@ -1,0 +1,127 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+#main-content-box,
+.everything-above-footer,
+.skinnable-background,
+.cloudcast-info-box,
+#topbar,
+#footer,
+.footer-col,
+.audiocol,
+.dashboard-box,
+#player-controls,
+.chapter-title,
+.section-chapter-number-cell,
+.section-row-chapter,
+tr.section-row-track,
+div.activity-box,
+div.comment-text,
+div#center-block,
+td.mx-table-600px-left-white,
+td.mx-table-600px-left-white *,
+td.mx-table-300px-left-gray,
+td.mx-table-300px-left-gray *,
+td.mx-table-300px-right-gray,
+td.mx-table-300px-right-gray *,
+div#pjax_section,
+div#pjax_section *,
+h1.sectiontitle,
+div.cloudcast-header,
+div.mx-topbar,
+div.divcloudcast-vertical-center {
+ 	text-shadow: none !important;
+	color: #eee8d5 !important;
+	background-color: #3a3a3a !important;
+}
+
+.header {
+	background-color: #212121 !important;	
+}
+
+.cloudcast-tracklist {
+	border-color: #212121 !important;	
+}
+
+div.masonry-column div.card,
+.sub-header div.cf {
+	background-color: #212121 !important;
+	border: 1px solid #3a3a3a;
+}
+
+.card-cloudcast-title span,
+.card-cloudcast-title a {
+	color: #eee8d5 !important;
+}
+
+.card-cloudcast-user {
+	color: #93a1a1 !important;
+}
+
+.card-footer {
+	border-top: 1px solid #212121 !important;
+}
+
+/*
+.tag-small:before {
+	border-top: 9px solid #3e3a3a !important;
+	border-bottom: 9px solid #3e3a3a !important;
+	border-right: 9px solid #3e3a3a !important; 
+}
+
+.tag-small:after {
+	border-top: 8px solid #212121 !important;
+	border-bottom: 8px solid #212121 !important;
+	border-right: 8px solid #212121 !important; 
+}
+*/
+
+.button {
+	background-color: #212121 !important;
+	border: 1px solid #3a3a3a !important;
+}
+
+.card-list:before, .card.card-cloudcast:before,
+.card-list:after, .card.card-cloudcast:after {
+	background: none !important;	
+}
+
+.card-cloudcast-title a {
+	text-shadow: none !important;
+	color: #93a1a1 !important;
+}
+
+h1.cloudcast-title,
+.cloudcaster-name a,
+.cloudcaster-name-by {
+	text-shadow: none !important;
+	color: #fdf6e3 !important;
+	opacity: 1;
+}
+
+body,
+div.takeover-surrounding,
+div.cloudcast-mid-wrapper,
+.general-textbox {
+	color: #93a1a1;
+	background: #141414 !important;	
+}
+
+.general-textbox {
+	border: 1px solid #3a3a3a;	
+}
+
+.main-content-column div.card,
+.cloudcast-mid-wrapper .card  {
+	color: #93a1a1;
+	background: #212121 !important;
+	border: 1px solid #3a3a3a;
+}
+
+.cloudcast-mid-wrapper h3  {
+	color: #eee8d5;
+	border-bottom: 1px solid #3a3a3a;
+}
+
+*:not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]:not([class*="logo"]):not([class*="cloudcast-head-container"]) {
+	background-image: none !important;
+}
